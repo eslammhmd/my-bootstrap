@@ -1,0 +1,22 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "bootstrap"
+  ],
+  "author": "eslam",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "bootstrap": "^5.1.3",
+    "post-cli": "^1.0.5"
+  }
+}
